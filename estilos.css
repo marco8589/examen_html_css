@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+/* Estilos generales */
+
+.header {
+    background-image: url("imagenes/banner.png");
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.contenidoheader {
+    position: relative;
+}
+
+.header::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.604);
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+}
