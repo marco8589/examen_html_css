@@ -45,6 +45,12 @@ a {
   z-index: 1;
 }
 
+.encabezado input,
+.mostrar-menu {
+  display: none;
+  font-size: 35px;
+}
+
 .contenidoheader img {
   width: 190px;
 }
@@ -455,4 +461,11 @@ a {
 .contenido_contact_index .botones {
   font-size: 12px;
   padding: 15px 40px;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .mostrar-menu {
+    display: block;
+  }
 }
