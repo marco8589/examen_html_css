@@ -116,8 +116,6 @@ a {
   background-color: red;
 }
 
-
-
 .contenido_footer {
   display: flex;
   flex-direction: column;
@@ -144,12 +142,7 @@ a {
   color: rgb(255, 123, 0);
 }
 
-
-
-
-
 /*---------- pagina index ------------ */
-
 
 .titulosprincipales_index {
   position: absolute;
@@ -274,8 +267,6 @@ a {
   opacity: 0;
 }
 
-
-
 #imagen2 {
   position: relative;
   border: 1px;
@@ -298,8 +289,6 @@ a {
   transition: 0.4s;
   opacity: 0;
 }
-
-
 
 #imagen3 {
   position: relative;
@@ -331,7 +320,6 @@ a {
   opacity: 1;
 }
 
-
 .facilities_index {
   display: flex;
   flex-direction: column;
@@ -348,7 +336,6 @@ a {
   color: gray;
   line-height: 22px;
   font-size: 15px;
-
 }
 
 .facilities_articulos_index {
@@ -364,7 +351,6 @@ a {
   width: 340px;
 }
 
-
 .facilities_articulos_index article h3 {
   margin-bottom: 10px;
 }
@@ -373,7 +359,6 @@ a {
   width: 350px;
   border-radius: 10px;
   margin-bottom: 10px;
-
 }
 
 .student_index {
@@ -392,7 +377,6 @@ a {
   color: gray;
   line-height: 22px;
   font-size: 15px;
-
 }
 
 .student_articulos_index {
@@ -441,7 +425,7 @@ a {
 }
 
 .contact_index::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: rgba(0, 0, 0, 0.541);
   left: 0;
